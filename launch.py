@@ -76,35 +76,3 @@ lds.save(".\\Resources\\Loadingscreen.png")
 os.system("start /high "" .\Resources\clientdx.exe")
 sys.exit(0)
 
-#打开
-#image3 = Image.open("head3.png")
-
-#重置大小
-#imager = image.resize((1000, 200), resample=Image.LANCZOS)
-
-#组合图片
-#imager.paste(image2, (0, 0), mask=image2)
-
-#保存图片
-#imager.save("top3.png")
-
-#绘制文字
-#draw = ImageDraw.Draw(image4)
-#font = ImageFont.truetype('kyokasho.ttf', 30)
-#draw.text((190,90), '一只天上的大萝卜', font=font, fill=(192,64,128))
-
-#绘制文字大小
-#draw = ImageDraw.Draw(image4)
-#font = ImageFont.truetype('kyokasho.ttf', 30)
-#sizex = draw.textsize('一只天上的大萝卜')
-
-#制图
-#image5 = Image.new('RGB', (1000, 800), (255, 255, 255))
-
-#裁切
-#imagen = image5.crop(box=(0,0,18,20))
-
-#画线
-#draw = ImageDraw.Draw(image5)
-#shape = [(50,250), (400,250)]
-#draw.line(shape, fill=(128,128,128), width = 3)
